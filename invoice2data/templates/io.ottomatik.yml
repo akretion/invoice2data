@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+issuer: Ottomatik
+fields:
+  amount: Total.*\$(\d+\.\d+)
+  date: Date:.*\s+([a-zA-Z]+.*\d+,.*\d+)
+  invoice_number: Invoice\tNumber:\s+(\w+)
+  static_partner_website: ottomatik.io
+  static_partner_name: Ottomatik
+keywords:
+  - Ottomatik
+options:
+  currency: USD
+  date_formats:
+    - '%B\t%d,\t%Y'
+  languages:
+    - en
+  decimal_separator: '.'
